@@ -1,12 +1,18 @@
-import logo from '/logo.png'
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import AllProducts from './pages/AllProducts';
 const App = () => {
-
   return (
-    <div className="w-full h-screen flex items-center justify-center">
-      <img src={logo} alt="logo" className='w-full h-auto max-w-[300px]'/>
-    </div>
-  )
-}
+    <Router>
+      <div className="w-full h-full font-poppins">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/allproducts" element={<AllProducts />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;

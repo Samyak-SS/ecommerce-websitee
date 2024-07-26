@@ -1,17 +1,17 @@
-import { img1, img2, img3 } from "../assets/Hero";
+import { img1, img2, img3,img6 } from "../assets/Hero";
 
-//hero section data
+//hero section data colorLite: "   deep #35553f  lite: #dcdfc0  The Samsung Galaxy Ultra Watch",
 export const data = [
   {
     id: 1,
     colorDeep: "#304e70",
-    colorLite: "#d3dce0",
-    mainText: "Elegance",
+    colorLite: "#F09754",
+    mainText: "The Samsung Galaxy Ultra Watch",
     subText:
-      "Nourish Your Skin: Experience Promoil's Argan Infused Elegance",
+      " is a premium smartwatch offering advanced health tracking with a sleek and durable design.",
     shadow: "0px 10px 20px rgba(78, 112, 149, 0.8)",
     mobileShadow: "0px 5px 20px rgba(78, 112, 149, 0.8)",
-    img: img1,
+    img: img6,
   },
   {
     id: 2,
